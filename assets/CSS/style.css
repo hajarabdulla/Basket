@@ -1,0 +1,65 @@
+.mycard{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.mycard{
+    overflow: hidden;
+}
+.mycard img{
+    transition: .2s ease-in-out;
+}
+.mycard:hover > img{
+    transform: scale(1.04);
+}
+.mycard:hover .price{
+    transform: translateX(1%);
+}
+.card-body .card-title{
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.mycard:hover > .card-body > .card-title{
+    letter-spacing: 1px;
+    color: darkred;
+}
+.price{
+    color: darkred;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.fa-trash{
+    font-size: 24px; 
+    color: red;
+    transition: .3s ease-in-out;
+}
+.fa-trash:hover{
+    transform: scale(1.2);
+    color: rgba(255, 0, 0, 0.678);
+}
+.incdecbuttons{
+    padding: 2px;   
+}
+.imagerow img{
+    width: 100px; 
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+body{
+    background-image: url("https://media.istockphoto.com/photos/flying-mixed-vegetables-in-a-pan-diet-healthy-food-black-background-picture-id1063008974?k=20&m=1063008974&s=170667a&w=0&h=HQw5qJxG1GOAUw8eqdm8ibsHSnElso3bnAUSUUuO6SA=");
+    backdrop-filter: blur(10px);
+    height: 100wh;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.price::after{
+    content: "Azn";
+}
+.table{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+#noorder{
+    display: none; 
+    color: white
+}
